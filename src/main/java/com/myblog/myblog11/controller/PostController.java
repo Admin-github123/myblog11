@@ -23,4 +23,6 @@ public class PostController {
         PostDto dto = postService.createPost(postDto);
         return new ResponseEntity<>(dto, HttpStatus.CREATED);
     }
+
+
 }
